@@ -1,4 +1,4 @@
-# FisiCoin
+# Cigicoin
 ## Ukázka, jak to funguje
 
 ### 1. Webová stránka pro zkoušení
