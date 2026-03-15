@@ -32,7 +32,7 @@ python -m uvicorn main:app --reload --port 8001
 
 ## Trvalé uchování dat (Persistence)
 
-Hlavním rozdílem oproti základní verzi je automatické ukládání dat. Zatímco běžné školní ukázky drží data jen v operační paměti (RAM), Fisicoin 2 je ukládá přímo na disk.
+Hlavním rozdílem oproti základní verzi je automatické ukládání dat. Zatímco běžné školní ukázky drží data jen v operační paměti (RAM), Cigicoin je ukládá přímo na disk.
 
 **Jak to funguje:**
 1. **Ukládání:** Při každém úspěšném vytěžení nového bloku se celý řetězec převede do formátu JSON a zapíše se do souboru `blockchain.json` ve složce projektu.
