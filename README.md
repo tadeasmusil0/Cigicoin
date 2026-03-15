@@ -51,22 +51,18 @@ Aplikace automaticky generuje interaktivní grafické rozhraní. Po spuštění 
 
 ## Ukázky
 
-### 1. Vzhled API
-![api](assets/image.png)
-
-### 2. Transaction
+### Transaction
 Pro odeslání coinu stiskneme vpravo tlačítko "Try it out".
 ![transaction](assets/image-2.png)
 V JSON poli upravíme data a dáme "Execute". Tím se transakce pošle do čekárny.
 ![transaction](assets/image-3.png)
 ![transaction](assets/image-4.png)
 
-### 3. Mine (Těžba)
+### Mine (Těžba)
 Zde opět přes "Try it out" a "Execute" spustíme těžbu. V tuto chvíli se data propíší do souboru `blockchain.json`.
-![mine](assets/image-5.png)
 ![mine](assets/image-6.png)
 
-### 4. Blocks (Výpis historie)
+### Blocks (Výpis historie)
 Na adrese http://127.0.0.1:8000/blocks vidíme uložená data. Tato data zůstanou v prohlížeči i po restartu serveru.
 ![docs](assets/image-7.png)
 ![docs](assets/image-8.png)
